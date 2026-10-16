@@ -8,7 +8,8 @@
 
 ## Key Capabilities
 
-1. **Multi-Modal Synthetic Data Pipeline**:
+1. **Multi-Modal Synthetic Data Pipeline (Clinical Reference: HUPA-UCM)**:
+   * Modeled after the clinical protocol established by the **HUPA-UCM Diabetes Dataset** ([*Data in Brief*, 2024](https://doi.org/10.1016/j.dib.2024.110559)) combining CGM and smartwatch sensor streams.
    * Synthetic EHR profiles for 50 patients (Age, Sex, BMI, HbA1c, Diabetes Status, Medication, Hypertension, Family Risk Score).
    * 67,200 continuous 15-minute wearable sensor readings (CGM Glucose, Heart Rate, HRV RMSSD, Steps, Sleep Duration, Dietary Carbohydrates).
    * Realistic physiological coupling (digestion kinetics, circadian rhythms, GLUT4 exercise clearance, and sleep debt).
